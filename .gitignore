@@ -1,0 +1,272 @@
+# CivicTechWR Project Template .gitignore
+
+# Environment and configuration files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+config.local.*
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ruby
+vendor/bundle/
+.bundle/
+Gemfile.lock
+
+# Build outputs and distributions
+dist/
+build/
+_site/
+out/
+*.tgz
+*.tar.gz
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Civic Tech Specific
+
+# User research and sensitive data
+user_interviews/
+survey_responses/
+participant_data/
+sensitive_docs/
+
+# API keys and secrets (additional patterns)
+# Use scoped patterns to avoid excluding legitimate source files
+*-secret.*
+*_secret.*
+*-token.*
+*_token.*
+*-password.*
+*_password.*
+*-credential.*
+*_credential.*
+api_keys.txt
+secrets.json
+
+# Local development certificates
+*.pem
+*.key
+*.crt
+
+# Testing artifacts
+test-results/
+screenshots/
+videos/
+
+# Deployment artifacts
+deployment_keys/
+server_configs/
+production_data/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Local tooling directories
+.claude/
+.qodo/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Local configuration overrides
+local_settings.py
+settings_local.py
+config_local.json
+docker-compose.override.yml
+
+# IDE and editor specific files
+*.sublime-project
+*.sublime-workspace
+.vim/
+.emacs.d/
+*.tmproj
+*.tmproject
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Civic tech project specific patterns
+# (Uncomment and customize for your project)
+
+# WordPress (if using)
+# wp-config.php
+# wp-content/uploads/
+
+# Drupal (if using)
+# sites/*/settings*.php
+# sites/*/files/
+
+# Laravel (if using)
+# .env
+# storage/
+# bootstrap/cache/
+
+# Django (if using)
+# *.log
+# local_settings.py
+# db.sqlite3
+
+# Rails (if using)
+# config/database.yml
+# log/
+# tmp/
+
+# Flutter/Dart (if using)
+# .dart_tool/
+# .packages
+# pubspec.lock
+# build/
+
+# Android (if building mobile apps)
+# *.jks
+# *.keystore
+# local.properties
+
+# iOS (if building mobile apps)
+# *.mobileprovision
+# *.p12
+
+# Add any project-specific patterns below this line
+# (These will be unique to your specific civic tech project)

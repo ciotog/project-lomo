@@ -1,0 +1,43 @@
+MIT License
+
+Copyright (c) 2025 CivicTechWR
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Additional Notes for Civic Technology Projects:
+
+This project is developed as part of CivicTechWR (Civic Technology Waterloo Region),
+a community organization dedicated to strengthening civic engagement through
+technology in the Waterloo Region of Ontario, Canada.
+
+While this software is released under the MIT License, we encourage users to:
+
+1. Acknowledge the civic purpose and community origin of this project
+2. Consider how modifications or derivatives can serve civic and community goals
+3. Share improvements back with the civic technology community
+4. Respect privacy and accessibility standards when deploying or modifying
+5. Engage with affected communities when implementing civic technology solutions
+
+For questions about civic tech applications of this software, contact:
+CivicTechWR community at [contact information]
+
+This license does not grant permission to use CivicTechWR trademarks or logos
+without explicit permission from the organization.
