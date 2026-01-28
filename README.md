@@ -1,6 +1,6 @@
-# [Project Name]
+# LoMo
 
-## CivicTechWR Season X Project
+## CivicTechWR Season 7 Project
 
 [![Template Version](https://img.shields.io/badge/template-v1.0.0-blue.svg)](https://github.com/CivicTechWR/CTWR-Project-Template-New/releases)
 [![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-brightgreen.svg)](https://civictechwr.github.io/CTWR-Project-Template-New/)
@@ -35,26 +35,30 @@ This template provides everything needed for a successful CivicTechWR project: 1
 ## Problem Statement
 
 **What is the problem?**
-[Describe the specific community problem you're addressing]
+LoMo is an exploration in building calm, consent-based infrastructure that makes it easier to ask for and offer help without pressure, rage, or performance
 
 **Who is affected?**
-[Name the people or groups and where they are, e.g., "seniors in Kitchener who rely on buses after 9pm"]
+Members of the community interested in a sharing economy
 
 **What exists today?**
 [How are users solving or mitigating the problem today? Tools, programs, workarounds, policies, past attempts and their gaps]
 
 **Why now?**
-[What's changed or urgent about the problem? Any time-bound opportunity or risk?]
+If we are to weather the coming climate change effects on our food systems and our personal security, we will need to come together and think in community ways, community wellbeing, community success, as opposed to individual success.
 
 ## Solution Overview
-
-[Brief description of what you're building and how it addresses the problem]
+A platform for people to ask for help, and match them with others to help
 
 ## Team
 
 | Name | Role | Skills | Weekly Commitment |
 |------|------|--------|------------------|
-| [Name] | [Role] | [Skills] | [Hours/week] |
+| Rebecca Sargent | Project Owner | SME | |
+| Mohamed Fouda | Technical Product Manager | Product Management | |
+| Sara Ahmad | Project Manager | Project Management | |
+| Chen Lu | Designer | Design | |
+| Jay | Software Developer | Software Development | |
+| Chris Craig | Software Developer | Software Development | |
 
 **What help do we need from the community?**
 [Data, introductions, volunteers with certain skills, user interviews, etc.]
@@ -108,7 +112,7 @@ This template provides everything needed for a successful CivicTechWR project: 1
 # 2. Provision GitHub Project for project tracking
 CTWR_PROJECT_OWNER=CivicTechWR ./scripts/setup-project.sh  # recommend hosting in the CivicTechWR org
 
-# 3. Apply security baseline (branch protection, Dependabot, secret scanning)
+# 3. Apply security baseline (branch protection, Dependabot, secrt scanning)
 ./scripts/setup-security.sh
 ```
 
