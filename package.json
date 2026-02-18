@@ -46,10 +46,5 @@
     "season_lifecycle": "12-weeks",
     "last_updated": "2025-09-28"
   },
-  "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "eslint": "^10.0.0",
-    "eslint-config-prettier": "^10.1.8",
-    "prettier": "^3.8.1"
-  }
+  "devDependencies": {}
 }
