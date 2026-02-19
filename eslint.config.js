@@ -9,6 +9,9 @@ export default antfu({
 		semi: true,
 	},
 	ignores: [
+		".github/*",
+		"*.py",
+		"docs/*",
 		"docs/_site/",
 		"dist/",
 		"vendor/",
