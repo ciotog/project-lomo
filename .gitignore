@@ -227,6 +227,9 @@ docker-compose.override.yml
 .dmypy.json
 dmypy.json
 
+# Local docker volumes
+postgres_data
+
 # Civic tech project specific patterns
 # (Uncomment and customize for your project)
 
